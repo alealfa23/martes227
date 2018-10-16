@@ -1,0 +1,18 @@
+body
+{
+	background: #d8d8d8;
+	color: blue;
+}
+.foto{
+	border-radius: 50%;
+}
+#container_cabezote
+{
+	background: white;
+	border: 2px;
+}
+#container1
+{
+	background: orange;
+	border: 2px;
+}
