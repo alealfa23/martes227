@@ -1,0 +1,203 @@
+Started GET "/" for 127.0.0.1 at 2018-10-19 12:22:53 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+Completed 200 OK in 493ms (Views: 52.2ms)
+
+
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:23:17 -0500
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:23:17 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 3225ms
+
+
+  
+ActionView::Template::Error (TypeError: El objeto no acepta esta propiedad o método):
+    4:     <title>Alejo</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___398262809_45153948'
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 703ms
+
+
+  
+ActionView::Template::Error (TypeError: El objeto no acepta esta propiedad o método):
+    4:     <title>Alejo</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___398262809_45153948'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:25:09 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 693ms
+
+
+  
+ActionView::Template::Error (TypeError: El objeto no acepta esta propiedad o método):
+    4:     <title>Alejo</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___398262809_56722812'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:25:51 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 775ms
+
+
+  
+ActionView::Template::Error (TypeError: El objeto no acepta esta propiedad o método):
+    4:     <title>Alejo</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___398262809_40878360'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:26:07 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 732ms
+
+
+  
+ActionView::Template::Error (TypeError: El objeto no acepta esta propiedad o método):
+    4:     <title>Alejo</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___398262809_84008568'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:30:59 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 116ms
+
+
+  
+SyntaxError (C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+    <%= javascript_include_tag 'ap...
+     ^
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:31:22 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 134ms
+
+
+  
+SyntaxError (C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+    <%= javascript_include_tag  );@output_buffer.safe_append='
+     ^
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:31:46 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 105ms
+
+
+  
+SyntaxError (C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+    <%= javascript_include_tag );@output_buffer.safe_append='
+     ^
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:17: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:32:18 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 96ms
+
+
+  
+SyntaxError (C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+    <%= javascript_include_tag >
+     ^
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_yield, expecting ')'
+    <%= yield );@output_buffer.safe_append='
+             ^):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_yield, expecting ')'
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:33:51 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 116ms
+
+
+  
+SyntaxError (C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+    <%= javascript_include_tag >
+     ^
+C:/Users/Biblioteca/Documents/viernes/alejo/app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_yield, expecting ')'
+    <%= yield );@output_buffer.safe_append='
+             ^):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:12: syntax error, unexpected keyword_yield, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-10-19 14:35:55 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (5.5ms)
+Completed 200 OK in 73ms (Views: 39.9ms)
+
+
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 14:36:12 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 106ms (Views: 83.8ms)
+
+
+Started GET "/page/index" for 127.0.0.1 at 2018-10-19 15:10:55 -0500
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 123ms (Views: 85.5ms)
+
+
